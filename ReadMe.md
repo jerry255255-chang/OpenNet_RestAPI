@@ -1,8 +1,7 @@
 
 ## Note:
-在實作中，我特別使用了 pytest.mark.parametrize 的 ids 參數來提升測試報告的可讀性
-，確保 QA 或開發人員在查看失敗案例時，能一眼看出是哪組測試數據
-（如 post_id 或 status code）出了問題。
+在實作中，我使用了 pytest.mark.parametrize 的 ids 參數來提升測試報告的可讀性
+，確保 QA 或開發人員在查看失敗案例時，能一眼看出是哪組測試數據出了問題。
 ## Test Cases:
 
 | Test Case ID | Test Scenario | Test Steps | Expected Result | Validation Method |
